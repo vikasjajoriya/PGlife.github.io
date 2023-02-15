@@ -6,7 +6,7 @@
    }
    .searchbar{
     /* background: linear-gradient(rgb(77, 70, 70), rgb(77, 70, 70)), url('/bg.png'); */
-    background: linear-gradient(rgba(104, 99, 98, 0.4), rgba(104, 99, 98, 0.4)),url("/Logo/bg.png");
+    background: linear-gradient(rgba(104, 99, 98, 0.4), rgba(104, 99, 98, 0.4)),url("Logo/bg.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: contain;
