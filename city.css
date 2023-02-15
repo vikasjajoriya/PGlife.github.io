@@ -1,0 +1,74 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.cities{
+    width: 100%;
+    height: 50vh;
+    /* border: 2px solid; */
+    text-align: center;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    /* position: fixed; */
+}
+.cities .More-cities h1{
+    /* border: 1px solid orange; */
+    color: black;
+    font-weight: 900px;
+    font-size: 50px;
+    /* width: 87%; */
+    /* height: 100px; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.cities .cities-logo{
+    /* background: #a21a1a21; */
+    display: flex;
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 35vh;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.cities .cities-logo .city1,
+.cities .cities-logo .city2,
+.cities .cities-logo .city3,
+.cities .cities-logo .city4{
+    border: 2px solid black;
+    border-radius: 50%;
+    /* width: 50%;
+    height: 50%; */
+    margin: 0px 10px;
+    box-shadow: 0px 6px 20px 0px rgb(124 115 115);
+}
+.cities .cities-logo .city1:hover,
+.cities .cities-logo .city2:hover,
+.cities .cities-logo .city3:hover,
+.cities .cities-logo .city4:hover{
+    box-shadow: 0px 0px 10px 9px rgb(3 3 3 / 11%);
+    cursor: pointer;
+}
+.city1 img,
+.city2 img,
+.city3 img,
+.city4 img{
+    max-width: 80%;
+    height: 23vh;
+    object-fit: fill;
+}

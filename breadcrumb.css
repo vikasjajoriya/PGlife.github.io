@@ -1,0 +1,19 @@
+*{
+    margin: 0%;   
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+   }
+.breadcrumb{
+    background-color: #e5e3e8;
+    width: 100%;
+    font-size: 13px;
+    padding-left: 50px;
+}
+.breadcrumb .breadcrumb-item a{
+    color: #4dc7bc;
+    text-decoration: none;
+}
+.breadcrumb .breadcrumb-item a:hover{
+    text-decoration: underline;
+}

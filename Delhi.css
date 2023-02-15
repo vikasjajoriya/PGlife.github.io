@@ -1,0 +1,79 @@
+*{
+    margin: 0%;   
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+   }
+   nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* height: 7vh; */
+    /* position: fixed; */
+    background-color: white;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+   }
+   nav .logo img{
+       width: 170px;
+       height: 70px;
+       padding: 10px;
+       margin-left: 30px;
+   }
+   .signup{
+       color: rgba(82, 83, 85, 0.842);
+       display: flex;
+       flex-direction: row;
+       /* cursor: pointer; */
+       /* border: 1px solid; */
+       height: 50px;
+       width: 200px;
+       /* left: 42px; */
+       align-content: center;
+       justify-content: center;
+       align-items: center;
+       margin-right: 20px;
+   }
+   .signup a {
+    display: flex;
+    text-decoration: none;
+    color: grey;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+   }
+   .div1 a img,
+   .div2 a img{
+    width: 20px;
+    color: grey;
+    margin: 0px 5px;
+   }
+   .signup a:hover{
+       color: black;
+       cursor: pointer;
+   }
+   .div1,
+   .div2{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: -6px;
+   }
+   .signup .div2:hover{
+    color: black;
+    cursor: pointer;
+   }
+   .div1 span,
+   .div2 span{
+    padding: 0px 5px;
+   }
+   .signup .exl{
+       border: 1px solid;
+       height: 20px;
+       margin: 10px;
+       border-color: #c8c3c3;
+   }

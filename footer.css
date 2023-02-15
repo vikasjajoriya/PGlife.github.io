@@ -1,0 +1,61 @@
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  /* font-family: 'Ubuntu', sans-serif; */
+}
+
+.Footer1 {
+  width: 100%;
+  height: 10vh;
+  /* border: 2px solid black; */
+  background-color: rgb(72, 69, 69);
+  padding: 10px 0px;
+}
+
+.loction-details {
+  /* border: 2px solid rgb(120, 152, 71); */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 4vh;
+  text-decoration: none;
+}
+
+.loction-details .pg-delhi a,
+.loction-details .pg-bangalore a,
+.loction-details .pg-Chennai a,
+.loction-details .pg-mumbai a {
+  /* padding: 10px 10px; */
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  /* border: 1px solid; */
+  margin: 0px 35px;
+}
+
+.loction-details .pg-delhi:hover,
+.loction-details .pg-bangalore:hover,
+.loction-details .pg-Chennai:hover,
+.loction-details .pg-mumbai:hover {
+  text-decoration: underline;
+}
+
+.Footer1 .copy {
+  margin: 5px 0px;
+  /* border: 2px solid orange; */
+  height: 4vh;
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: darkgray;
+}
