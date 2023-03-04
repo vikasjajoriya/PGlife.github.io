@@ -86,7 +86,7 @@
 .delhi-pg{
     /* border: 1px solid salmon; */
     width: 62%;
-    height: 57%;
+    height: auto;
     padding: 0px 10px;
     display: flex;
     flex-direction: column;
